@@ -7,36 +7,33 @@ public class Triangle {
 
         Scanner input = new Scanner(System.in);
 
-        boolean userInput = true;
-
         String inputBase = "Please enter BASE of the Triangle:";
         String inputHeight = "Please enter HEIGHT of the triangle:";
 
-        while (userInput) {
-            System.out.println(inputBase);
-            int base = input.nextInt();
+        System.out.println(inputBase);
 
-            System.out.println(inputHeight);
-            int height = input.nextInt();
-
-            if (base == 0 || height == 0) {
-
-                System.out.println("The base or height can't be equal to 0");
-                userInput = false;
-
-            } else {
-                int area = (base * height) / 2;
-                System.out.println("The area of the triangle is: " + area);
-                System.out.println(" ");
-                System.out.println("You can try one more time: ;)");
-            }
+        double base = input.nextDouble();
+        while (base <= 0) {
+            System.out.println("The base can't be equal to 0 or negative:");
+            base = input.nextDouble();
         }
+
+        System.out.println(inputHeight);
+        double height = input.nextDouble();
+        while (height <= 0) {
+
+            System.out.println("The height can't be equal to 0 or negative:");
+            height = input.nextDouble();
+
+        }
+        double area =  (base * height) / 2;
+        System.out.println("The AREA of the triangle is: " + area);
+
     }
 
     public static void main(String[] args) {
         Triangle triangle = new Triangle();
 
         calc();
-
     }
 }

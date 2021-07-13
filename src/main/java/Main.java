@@ -12,7 +12,7 @@ public class Main {
         if(numberIn <5){
             System.out.println("Enjoy the good luck a friend brings you");
         }else{
-            System.out.println("Your shoe selection will make you hapy today");
+            System.out.println("Your shoe selection will make you happy today");
         }
 
 //        int studentAge = 34;
