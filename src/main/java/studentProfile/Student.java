@@ -10,7 +10,7 @@ public class Student {
 
     public Student(String firstName, String lastName, int id, int expectedGradYear,
                    double studentGPA) {
-        this.firstName = firstName;
+        this.firstName = firstName; 
         this.lastName = lastName;
         this.id = id;
         this.expectedGradYear = expectedGradYear;
