@@ -21,12 +21,22 @@ public class CarsMain {
         System.out.println("eto i est vibrosi v atmosferu " + car2.vihlop);
         System.out.println("-----------------------------------------------------");
 
-        Cars car3 = new Cars(4.5,"Pearl", CarsEnum.SUBARU,1.5);
+        Cars car3 = new Cars(4.5, "Pearl", CarsEnum.SUBARU, 1.5);
         System.out.println(car3.carsEnum);
         System.out.println(car3.engineVolume);
         System.out.println(car3.colourOfTheCar);
 
         car3.calculateVibrosi();
         System.out.println("eto i est vibrosi v atmosferu " + car3.vihlop);
+        System.out.println("-----------------------------------------------------");
+
+        Cars car4 = new Cars(3.0, "white", CarsEnum.HUMMER, 0.5);
+        System.out.println(car4.carsEnum);
+        System.out.println(car4.engineVolume);
+        System.out.println(car4.colourOfTheCar);
+
+
+        car3.calculateVibrosi();
+        System.out.println("eto i est vibrosi v atmosferu " + car4.vihlop);
     }
 }
