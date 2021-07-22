@@ -39,4 +39,6 @@ public class CarsMain {
         car3.calculateVibrosi();
         System.out.println("eto i est vibrosi v atmosferu " + car4.vihlop);
     }
+
+
 }
