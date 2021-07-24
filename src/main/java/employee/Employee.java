@@ -3,10 +3,10 @@ package employee;
 import java.util.Scanner;
 
 public class Employee {
-    String firstName, lastName, location;
-    int age;
-    String message = "Please enter your salary: ";
-    double salary;
+    private String firstName, lastName, location;
+    private int age;
+    private String message = "Please enter your salary: ";
+    private double salary;
 
     Scanner scanner = new Scanner(System.in);
 
@@ -67,5 +67,4 @@ public class Employee {
         System.out.print("Total: ");
         return userSalaryInput;
     }
-
 }
