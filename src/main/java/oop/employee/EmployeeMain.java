@@ -1,6 +1,4 @@
-package employee;
-
-import java.util.Scanner;
+package oop.employee;
 
 public class EmployeeMain {
 
