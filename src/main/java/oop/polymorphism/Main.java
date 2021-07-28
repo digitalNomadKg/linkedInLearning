@@ -51,7 +51,7 @@ public class Main {
         System.out.println("-----------------");
 
         // With donkey used linkedlist
-        Donkey donkey = new Donkey();
+        Animal donkey = new Donkey(); //upcasting
         donkey.setTypeOfAnimal("Domestic");
         donkey.setNameOfAnimal("IWAK");
         donkey.animalSound();

@@ -2,9 +2,10 @@ package oop.polymorphism;
 
 public class Cat extends Animal {
 
-    protected String[] typeOfCat = {"VAN", "Persian", "French CAT", "Sphinx"};
+   protected String[] typeOfCat = {"VAN", "Persian", "French CAT", "Sphinx"};
 
-    protected String lookForTypeOfCat() {
+
+    String lookForTypeOfCat() {
         for (int i = 0; i < typeOfCat.length; i++) {
             System.out.println(typeOfCat[i]);
         }
