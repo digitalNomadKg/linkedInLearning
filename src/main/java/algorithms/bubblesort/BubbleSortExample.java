@@ -2,7 +2,7 @@ package algorithms.bubblesort;
 
 public class BubbleSortExample {
 
-    int bubbleSort(int[] array) {
+    public static int bubbleSort(int[] array) {
         int n = array.length;
         int temporary = 0;
         for (int i = 0; i < n; i++) {
@@ -21,12 +21,9 @@ public class BubbleSortExample {
 
     public static void main(String[] args) {
 
-        BubbleSortExample bubbleSortExample = new BubbleSortExample();
+        int k[] = {23, 341, 45, 1, 0, 3, 47, 45, 9};
 
-        int k[] = {4, 2, 6, 66, 41, 89,9};
-        bubbleSortExample.bubbleSort(k);
-
-
+        bubbleSort(k);
 
     }
 

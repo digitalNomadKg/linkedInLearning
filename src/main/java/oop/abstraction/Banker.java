@@ -11,7 +11,8 @@ public abstract class Banker {
 
 
     public void welcome() {
-        this.name = scanner.nextLine();
+        System.out.println("Please enter your name: ");
+        this.name = scanner.nextLine().toUpperCase();
         System.out.println("Hello " + this.name + " your balance is " + this.balance);
 
     }
